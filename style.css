@@ -1,0 +1,117 @@
+
+   
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    text-align: center;
+    color: rgb(149, 24, 199);
+}
+
+ul a {
+    text-decoration: none;
+    color: rgb(149, 24, 199);
+}
+
+
+
+ul a:visited {
+    text-decoration: none;
+    color: rgb(149, 24, 199);
+}
+
+.intro {
+    display: flex;
+    width: 50vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    padding: 10px;
+}
+
+.intro p {
+    padding: 20px 0 20px 0;
+    line-height: 1.2;
+}
+
+.container {
+    display: flex;
+    width: 50vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    padding: 10px;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 2px;
+}
+
+
+#qAndAns {
+    display: none;
+}
+
+#highScoresContainer {
+    display: none;
+}
+
+#correct {
+    display: none;
+}
+
+#incorrect {
+    display: none;
+}
+
+/* highscore page styling below */
+div a {
+    text-decoration: none;
+    color: rgb(105, 34, 163);
+}
+
+div a:visited {
+    text-decoration: none;
+    color: rgb(105, 34, 163);
+}
+
+ol {
+    padding: 10px;
+}
+
+ol li {
+    padding: 3px;
+    font-size: 18px;
+}
+
+.highStyle {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.highStyle h1 {
+    padding: 10px;
+    color: rgb(149, 24, 199);
+}
+

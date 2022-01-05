@@ -1,0 +1,56 @@
+
+   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="nav">
+                <li><a href="highScore.html">Highscores</a></li>
+                <li id="timer">Timer</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="intro" id="introPage">
+            <h1>Welcome to the coding quiz</h1>
+            <p>Please press start to begin the quiz. Please be aware that any incorrect answers will suffer a time penalty. Once the quiz is over please log your highscore and check out how you compare to other players</p>
+            <button type="button" id="startButton">Start Game</button>
+        </div>
+        <div class="container" id="qAndAns">
+            <div id="questions">
+                Question
+            </div>
+            <div id="answers" class="button-grid"> 
+                <button type="button" class="chosenAnswer" data-number="1">Answer 1</button>
+                <button type="button" class="chosenAnswer" data-number="2">Answer 2</button>
+                <button type="button" class="chosenAnswer" data-number="3">Answer 3</button>
+                <button type="button" class="chosenAnswer" data-number="4">Answer 4</button>
+            </div>
+            <div>
+                <p id="correct">Last answer was correct!</p>
+                <p id="incorrect">Last answer was incorrect!</p>
+            </div>
+        </div>
+        <div class="container" id="hSContainer">
+            <p>Your final score is <span id="final"></span></p>
+            <form>
+                <label for="initilas">Please enter your initial to log highscore</label><br>
+                <input type="text" id="intials" name="initials" placeholder="Enter initials :">
+                <button id="submit" disabled>Submit</a></button>
+            </form>
+        </div>
+    </main>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
