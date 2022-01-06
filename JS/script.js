@@ -83,11 +83,11 @@ submitEl.addEventListener("click", function (event) {
 //function below is for the quiz to actually start
 function startQuiz(){
     if (qAndAEl.display == "none") {
-        qAndAEl.setAttribute("stlye", "display:none");
+        qAndAEl.setAttribute("style", "display:none");
         introEl.setAttribute("style", "display:block");
     }
     else {
-        qAndAEl.setAttribute("stlye", "display:block");
+        qAndAEl.setAttribute("style", "display:block");
         introEl.setAttribute("style", "display:none");
     }
     //now need to set our timer to show how long is left with a text content
@@ -128,13 +128,13 @@ function loadQuizQuestions() {
     //now we need to pick a question from our array of questions 
     currentQ = myQuizQuestions[currentQIndex]
     quizQuestionsEl.innerText = currentQ.question;
-    console.log(currentQ);
+    
 
     //now we allocate our correct answer from the array to match the data number
     chosenAnswer.forEach((chosen) => {
         var answer = chosen;
         var number = answer.dataset["number"];
-        answer.innterText=currentQ["answer" + number];
+        answer.innerText=currentQ["answer" + number];
     })
     //now increase the index by 1 each time so that the next question shows up
     currentQIndex = currentQIndex = 1;
