@@ -67,7 +67,7 @@ ul a:visited {
     display: none;
 }
 
-#highScoresContainer {
+#hSContainer {
     display: none;
 }
 
@@ -77,41 +77,5 @@ ul a:visited {
 
 #incorrect {
     display: none;
-}
-
-/* highscore page styling below */
-div a {
-    text-decoration: none;
-    color: rgb(105, 34, 163);
-}
-
-div a:visited {
-    text-decoration: none;
-    color: rgb(105, 34, 163);
-}
-
-ol {
-    padding: 10px;
-}
-
-ol li {
-    padding: 3px;
-    font-size: 18px;
-}
-
-.highStyle {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 25%;
-    flex-direction: column;
-    padding: 10px;
-}
-
-.highStyle h1 {
-    padding: 10px;
-    color: rgb(149, 24, 199);
 }
 
