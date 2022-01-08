@@ -101,10 +101,8 @@ ol li {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 30%;
-    padding: 10px;
-    background-color: var(--dark);
-    border-radius: 25px;
-    color: var(--main);
+    top: 25%;
+    padding: 5px;
+    color: rgb(149, 24, 199);
     padding: 15px;
 }
