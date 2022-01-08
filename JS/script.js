@@ -128,7 +128,6 @@ function loadQuizQuestions() {
     //now we need to pick a question from our array of questions 
     currentQ = myQuizQuestions[currentQIndex]
     quizQuestionsEl.innerText = currentQ.question;
-    answer.innerText = currentQ.answer;
 
     
 
