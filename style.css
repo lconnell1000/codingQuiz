@@ -10,16 +10,10 @@ main {
 }
 
 ul a {
-    text-decoration: none;
     color: rgb(149, 24, 199);
 }
 
 
-
-ul a:visited {
-    text-decoration: none;
-    color: rgb(149, 24, 199);
-}
 
 .intro {
     display: flex;
@@ -44,15 +38,14 @@ ul a:visited {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 30%;
-    padding: 10px;
+    top: 25%;
+    padding: 5px;
 }
 
 .button-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    gap: 10px;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .nav {
@@ -79,3 +72,39 @@ ul a:visited {
     display: none;
 }
 
+div a {
+    text-decoration: none;
+    color: black;
+}
+
+
+ol {
+    padding: 10px;
+}
+
+ol li {
+    padding: 3px;
+    font-size: 18px;
+}
+
+.highscoreStyle {
+    position: absolute;
+    top: 25%;
+    padding: 10px;
+}
+
+.leaderboard {
+    display: flex;
+    width: 50vw;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    padding: 10px;
+    background-color: var(--dark);
+    border-radius: 25px;
+    color: var(--main);
+    padding: 15px;
+}

@@ -35,7 +35,7 @@ let myQuizQuestions = [
         question: "What is a variable?",
         answer1: "an unkown character",
         answer2: "something that can always change",
-        answer3: "Variables are used to store information to be referenced and manipulated in a computer program",
+        answer3: "Variables are used to store information",
         answer4: "a special character",
         correct: 3
     },
@@ -170,13 +170,13 @@ function questionAnswered(){
                 correctEl.setAttribute("style", "display:block");
                 setInterval(function(){
                     correctEl.setAttribute("style", "display:none")
-                }, 2000)
+                }, 2500)
             }
             else {
                 incorrectEl.setAttribute("style", "display:block");
                 setInterval(function(){
                     incorrectEl.setAttribute("style", "display:none");
-                }, 2000)
+                }, 2500)
             }
             loadQuizQuestions()
 
