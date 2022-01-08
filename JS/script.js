@@ -24,19 +24,19 @@ let prevHighScore = "";
 let myQuizQuestions = [
     {
         question: "What is CSS commonly used for?",
-        Answer1: "To make a webpage from start to finish",
-        Answer2: "To style a webpage",
-        Answer3: "To make a webpage interactive",
-        Answer4: "To make a webpage have multiple pages",
+        answer1: "To make a webpage from start to finish",
+        answer2: "To style a webpage",
+        answer3: "To make a webpage interactive",
+        answer4: "To make a webpage have multiple pages",
         correct: 2
 
     },
     {
         question: "What is a variable?",
-        Answer1: "an unkown character",
-        Answer2: "something that can always change",
-        Answer3: "Variables are used to store information to be referenced and manipulated in a computer program",
-        Answer4: "a special character",
+        answer1: "an unkown character",
+        answer2: "something that can always change",
+        answer3: "Variables are used to store information to be referenced and manipulated in a computer program",
+        answer4: "a special character",
         correct: 3
     },
 ]
@@ -128,16 +128,19 @@ function loadQuizQuestions() {
     //now we need to pick a question from our array of questions 
     currentQ = myQuizQuestions[currentQIndex]
     quizQuestionsEl.innerText = currentQ.question;
+    answer.innerText = currentQ.answer;
+
     
 
     //now we allocate our correct answer from the array to match the data number
+   
     chosenAnswer.forEach((chosen) => {
         var answer = chosen;
         var number = answer.dataset["number"];
-        answer.innerText=currentQ["answer" + number];
+        answer.innerText = currentQ["answer" + number];
     })
     //now increase the index by 1 each time so that the next question shows up
-    currentQIndex = currentQIndex = 1;
+    currentQIndex = currentQIndex + 1;
 
 }
 
@@ -162,7 +165,7 @@ function questionAnswered(){
                 timerCount--
             }
 
-            //now when we get to the next question we will show the user if their last answer
+            //now when we need to show the user if their last answer
             //was correct or incorrect
             if (selectedAnswer == currentQ.correct) {
                 correctEl.setAttribute("style", "display:block");
