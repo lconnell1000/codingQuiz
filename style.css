@@ -17,35 +17,35 @@ ul a {
 
 .intro {
     display: flex;
-    width: 50vw;
+    width: 40vw
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     position: absolute;
     top: 25%;
-    padding: 10px;
+    padding: 20px;
 }
 
 .intro p {
     padding: 20px 0 20px 0;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 
 .container {
     display: flex;
-    width: 50vw;
+    width: 40vw
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 25%;
+    top: 20%;
     padding: 5px;
 }
 
 .button-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .nav {
@@ -79,23 +79,23 @@ div a {
 
 
 ol {
-    padding: 10px;
+    padding: 20px;
 }
 
 ol li {
-    padding: 3px;
+    padding: 5px;
     font-size: 18px;
 }
 
 .highscoreStyle {
     position: absolute;
     top: 25%;
-    padding: 10px;
+    padding: 5px;
 }
 
 .leaderboard {
     display: flex;
-    width: 50vw;
+    width: 40vw
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
@@ -104,5 +104,5 @@ ol li {
     top: 25%;
     padding: 5px;
     color: rgb(149, 24, 199);
-    padding: 15px;
+    padding: 20px;
 }
