@@ -56,17 +56,17 @@ let myQuizQuestions = [
         correct: 4
     },
     {
-        question: "how can you make a comment in javascript?",
-        answer1: "//comment",
-        answer2: "'comment''",
-        answer3: "*/comment*/",
-        answer4: "commentr",
-        correct: 1
-    },
-    {
-        question: "Jquery is a library for which language",
+        question: "Bootstap is a library for which language??",
         answer1: "HTML",
         answer2: "Javascript'",
+        answer3: "CSS",
+        answer4: "C++t",
+        correct: 3
+    },
+    {
+        question: "Jquery is a library for which language?",
+        answer1: "HTML",
+        answer2: "Javascript",
         answer3: "CSS",
         answer4: "C++",
         correct: 2

@@ -9,7 +9,7 @@ main {
     color: rgb(149, 24, 199);
 }
 
-ul a {
+ul {
     color: rgb(149, 24, 199);
 }
 
@@ -17,7 +17,7 @@ ul a {
 
 .intro {
     display: flex;
-    width: 40vw
+    width: 40vw;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@ ul a {
 
 .container {
     display: flex;
-    width: 40vw
+    width: 40vw;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -95,7 +95,7 @@ ol li {
 
 .leaderboard {
     display: flex;
-    width: 40vw
+    width: 40vw;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
