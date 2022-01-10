@@ -39,6 +39,38 @@ let myQuizQuestions = [
         answer4: "a special character",
         correct: 3
     },
+    {
+        question: "How can you make a comment in javascript?",
+        answer1: "//comment",
+        answer2: "'comment''",
+        answer3: "*/comment*/",
+        answer4: "comment",
+        correct: 1
+    },
+    {
+        question: "What extension should a html file be?",
+        answer1: ".css",
+        answer2: ".ht'",
+        answer3: ".h",
+        answer4: ".html",
+        correct: 4
+    },
+    {
+        question: "how can you make a comment in javascript?",
+        answer1: "//comment",
+        answer2: "'comment''",
+        answer3: "*/comment*/",
+        answer4: "commentr",
+        correct: 1
+    },
+    {
+        question: "Jquery is a library for which language",
+        answer1: "HTML",
+        answer2: "Javascript'",
+        answer3: "CSS",
+        answer4: "C++",
+        correct: 2
+    },
 ]
 
 
